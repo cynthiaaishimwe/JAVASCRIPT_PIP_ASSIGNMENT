@@ -44,3 +44,27 @@ let  num1 = 100;
 let num2= 60;
 let result = sumGreaterThan(num1, num2);
 console.log(result);
+
+// Write a function that takes in a array of numbers as a parameter and 
+// returns the second largest number in the array
+
+
+  
+  
+
+
+// Write a function that takes a string as a parameter and 
+// returns true if the string is a palindrome and false otherwise
+
+function palindrome(word) {
+let arr = word.split('').reverse().join("")
+ if (arr===word){
+  return true
+ }else{
+  return false
+ }
+}
+console.log(palindrome("madam"))
+
+
+
